@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(67, 170, 238);
+ }
+ #contenedor{
+     background-color: rgb(23, 120, 199);
+     width: 50%;
+     margin: 0 auto;
+     padding: 20px;
+ }
+ .titulo{
+     font-size: 2em;
+ }
+ #box1{
+    background-color: rgb(170, 170, 170);
+    width: 100%;
+    padding: 25px;
+    box-sizing: border-box;
+    border: solid 8px black;
+ }
+ #columna1{
+    background-color: cornflowerblue;
+    width: 50%;
+ }
+ #columna2{
+    background-color: rgb(11, 90, 238);   
+    width: 50%;
+ }
+ .columna{
+    height: 200PX;
+    display: inline-block;
+    box-sizing: border-box 
+ }
+ .imangenporcentual{
+    background-color: cadetblue;
+    display: inline-block;
+    padding: 20px;
+    width: 20%;
+    font-size: 16px;
+    box-sizing: border-box;
+    margin: 2.5px;
+    border:solid 3px black;
+ }
+ .galeriaporcentual{
+    font-size: 0;
+
+ }
+
+ 
