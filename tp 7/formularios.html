@@ -17,6 +17,55 @@
             <a href="">Productos</a>/
             <a href="">Contactos</a>
         </nav>
+        <form action="" method="post">
+            <span>Dejanos tus datos para responderte a la brevedad.</span>
+        <label for="nombre">Nombre</label>
+        <input type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre">
+        <label for="apellido">Apellido</label>
+        <input type="text" name="apellido" id="apellido" placeholder="Ingrese su apellido">
+        <label for="dni">Dni</label>
+        <input type="text" id="dni" placeholder="Ingrese su dni" maxlength="8">
+        <label for="correo">Correo electronico</label>
+        <input type="email" name="correo" id="correo" placeholder="Ingrese su correo electronico">
+        <label for="tel">Telefono</label>
+        <input type="tel" name="telefono" id="telefono" placeholder="Ingrese su numero de telefono" value="+54 9 11">
+        <label for="nacimiento">Fecha de Nacimiento</label>
+        <input type="date" name="nacimiento" id="nacimiento" placeholder="Ingrese su fecha de nacimiento">
+        <label for="doc">Documentacion</label>
+        <input type="file" name="doc" id="documentacion" placeholder="Ingrese su tipo de documentacion">
+        <span class="genero">Genero <br>
+        <input type="radio" name="genero" id="masculino" value="masculino">  
+        <label for="masculino">Masculino</label> 
+        <input type="radio" name="genero" id="femenino" value="femenino">  
+        <label for="femenino">Femenino</label>
+        <input type="radio" name="genero" id="otro" value="otro">  
+        <label for="otro">Otro</label>
+        <input type="radio" name="genero" id="noresp" value="noresp">  
+        <label for="noresp">Prefiero no responder</label></span> 
+        <label for="nacionalidad">Nacionalidad</label>
+        <select name="nacionalidad" id="nacionalidad">
+            <option value="" selected disabled></option>
+            <option value="argentina">Argentina</option>
+            <option value="venezolana">Venezolana</option>
+            <option value="paraguaya">Paraguaya</option>
+            <option value="peruana">Peruana</option>
+            <option value="ninguna">Ninguna de las anteriores</option>
+        </select>
+        <span class="cursos">
+            Cursos de su interes <br>
+            <input type="checkbox" name="reparacion" id="reparacion" value="reparacion">
+            <label for="checkbox"> Reparacion de pc</label>
+            <input type="checkbox" name="sueldos" id="sueldos" value="sueldos">
+            <label for="checkbox">Liquidacion de sueldos</label>
+            <input type="checkbox" name="web" id="web" value="web">
+            <label for="checkbox">Programacion web</label>
+        </span>
+        <span>Consulta</span>
+        <textarea name="consulta" id="consulta" cols="30"
+        rows="10" placeholder="Limite de 256 caracteres"></textarea>
+        <button type="submit">Enviar</button>
+        <button type="reset">Burrar</button>
+        </form>
     </div>
 </body>
 </html>

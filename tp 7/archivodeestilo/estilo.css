@@ -1,6 +1,5 @@
 body{
     background-color: brown;
-    text-align: center;
     margin: 0;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -13,15 +12,71 @@ body{
 header h1{
     margin: 0;
     padding: 0 16px;
+    text-align: center;
 }
 nav{
     background-color: rgb(168, 166, 166);
     padding: 1px;
     box-sizing: border-box;
     color: black;
+    text-align: center;
 }
 nav a{
     text-decoration: none;
     color: black;
     padding: 0 10px;
+}
+form{
+    padding: 25px;
+
+}
+form span{
+    font-weight: 600;
+    display: block;
+    margin-bottom: 16px;
+}
+form label{
+    display: block;
+    margin: 5px;
+}
+form input{
+    display: block;
+    padding: 5px;
+    border-radius: 7px;
+    border: solid 3px rgb(182, 38, 38);
+    transition: 0.3s;
+    margin-bottom: 16px;
+    
+}
+form input:focus{
+    background-color: lightgray;
+}
+form span.genero label, form span.genero input{
+    display: inline;
+}
+form span.genero{
+    font-size: large;
+}
+form span.cursos label, form span.cursos input{
+    display: inline;
+}
+form span.cursos{
+    font-size: large;
+}
+form select{
+    margin-bottom: 16px;
+}
+form button{
+    display: inline;
+    background-color: gray;
+    padding: 5px;
+    margin-top: 16px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 7px;
+    border: 0;
+}
+form textarea{
+    display: block;
 }
