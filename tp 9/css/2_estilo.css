@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+#contenedor{
+    width: 80%;
+    margin: 0 auto;
+}
+ul{
+    list-style-type: decimal-leading-zero;
+    background-color: cadetblue;
+    color: white;
+    padding: 32px;
+    width: 500px;
+}
+ul li{
+    background: lightseagreen;
+    color: white;
+    padding: 8px;
+    margin-left: 32px;
+}
+table{
+    width: 80%;
+    border-collapse: collapse;
+}
+table th, table td{
+    padding: 8px;
+    border: 1px solid rgb(189, 189, 189);
+}
+table th{
+    background-color: rgb(10, 118, 190);
+    color: aqua;
+}
+table tr:nth-child(even){
+    background-color: rgb(238, 236, 236);
+}
+table td:hover{
+    background-color: rgb(145, 142, 142);
+    cursor: pointer;
+}
+table td{
+    transition: 0.8s;
+}
