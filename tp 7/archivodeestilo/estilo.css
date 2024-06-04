@@ -67,7 +67,7 @@ form select{
     margin-bottom: 16px;
 }
 form button{
-    display: inline;
+    display: inline;        
     background-color: gray;
     padding: 5px;
     margin-top: 16px;
