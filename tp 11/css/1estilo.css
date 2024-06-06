@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#contenedor{
+    width: 70%;
+    margin: 0 auto;
+}
+#box{
+    background-color: yellow;
+    overflow: auto;
+}
+.caja{
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    margin: 1em;
+    float: left;
+}
+article{
+    border: solid black;
+    padding: 1em;
+    width: 50%;
+    
+}
+article img{
+    float: right;
+}
+.overflow{
+    width: 500px;
+    height: 150px;
+    border: 2px solid black;
+    margin: 2em;
+}
+#over1{
+    overflow: hidden;
+    /* oculta el texto */
+}
+#over2{
+    overflow: scroll;
+    /* le crea una barra para visibilizar el contenido */
+}
+#over3{
+    overflow: visible;
+    /* deja que el contenido sea visible sin scroll/barra deslisante */
+}
