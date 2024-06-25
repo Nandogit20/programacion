@@ -60,6 +60,45 @@ body{
 .barra:hover{  
     height: 100px;
     margin-top: 20px;
-   
-} 
-
+}
+#baner{
+    background-color: rgb(71, 71, 252);
+    position: relative;
+    width: 300px;
+    height: 600px;
+    display: block;
+    margin-top: 100px;
+}
+#baner h1{
+    position: absolute;
+    left: -375px;
+    transition: 1s;
+    text-align: center;
+}
+#baner h2{
+    position: absolute;
+    right: -375px;
+    top: 30px;
+    transition: 1s;
+    transition-delay:  0.5s;
+}
+#baner img{
+    position: absolute;
+    width: 375px;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    transition: 1s;
+    transition-delay: 1s;
+}
+#baner a{
+    position: absolute;
+    left: -100px;
+    top: 200px;
+}
+#baner:hover h1{
+    left: 90px;
+}
+#baner:hover h2{
+    right: 90px;
+}
