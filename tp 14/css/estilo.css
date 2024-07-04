@@ -1,0 +1,83 @@
+body{
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+}
+#contenedor{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    width: 70%;
+    min-width: 700px;
+}
+header{
+    display: flex;
+    align-items: center;
+}
+header h1{
+    flex-grow: 1;
+}
+nav{
+    display: flex;
+    gap: 1.2em;
+    font-size: 1.2em;
+}
+nav a{
+    background-color: beige;
+    display: flex;
+    color: rgb(0, 0, 0);
+    justify-content: center;
+    text-decoration: none;
+    padding: 1.2em;
+    border-radius: 1.2em;
+    transition: 0.4s;
+}
+nav a:hover{
+    background-color: rgb(255, 0, 0);
+}
+#content{
+    display: flex;
+    font-size: 1em;
+}
+#cont{
+    width: 50%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#contenido{
+    width: 50%;
+    padding: 3em;
+    border: 5px solid white;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;   
+    align-items: center;
+}
+.acc{
+    display: flex;
+    padding: 1em;
+    background-color: bisque;
+    justify-content: center;
+    width: fit-content;
+    text-decoration: none;
+    color: black;
+    transition: 0.3s;
+}
+.acc:hover{
+    background-color: rgb(255, 10, 10);
+}
+#imagen{
+    display: flex;
+}
+#but{
+    display: flex;
+    gap: 1em;
+}
+.box1{
+    border: 5px solid white;
+    display: flex; 
+    flex-direction: column;
+    gap: 1em;   
+    align-items: center; 
+}
